@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF3C4C8F1A0043DC00977213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C4C8E1A0043DC00977213 /* main.m */; };
+		DF33B90E1A0054800050CB74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33B90D1A0054800050CB74 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DF3C4C891A0043DC00977213 /* CopyFiles */ = {
+		DF33B9081A0054800050CB74 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF3C4C8B1A0043DC00977213 /* ClosureNumberJudge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClosureNumberJudge; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3C4C8E1A0043DC00977213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF33B90A1A0054800050CB74 /* Closures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Closures; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF33B90D1A0054800050CB74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF3C4C881A0043DC00977213 /* Frameworks */ = {
+		DF33B9071A0054800050CB74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF3C4C821A0043DC00977213 = {
+		DF33B9011A0054800050CB74 = {
 			isa = PBXGroup;
 			children = (
-				DF3C4C8D1A0043DC00977213 /* ClosureNumberJudge */,
-				DF3C4C8C1A0043DC00977213 /* Products */,
+				DF33B90C1A0054800050CB74 /* Closures */,
+				DF33B90B1A0054800050CB74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF3C4C8C1A0043DC00977213 /* Products */ = {
+		DF33B90B1A0054800050CB74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF3C4C8B1A0043DC00977213 /* ClosureNumberJudge */,
+				DF33B90A1A0054800050CB74 /* Closures */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF3C4C8D1A0043DC00977213 /* ClosureNumberJudge */ = {
+		DF33B90C1A0054800050CB74 /* Closures */ = {
 			isa = PBXGroup;
 			children = (
-				DF3C4C8E1A0043DC00977213 /* main.m */,
+				DF33B90D1A0054800050CB74 /* main.m */,
 			);
-			path = ClosureNumberJudge;
+			path = Closures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF3C4C8A1A0043DC00977213 /* ClosureNumberJudge */ = {
+		DF33B9091A0054800050CB74 /* Closures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF3C4C921A0043DC00977213 /* Build configuration list for PBXNativeTarget "ClosureNumberJudge" */;
+			buildConfigurationList = DF33B9111A0054800050CB74 /* Build configuration list for PBXNativeTarget "Closures" */;
 			buildPhases = (
-				DF3C4C871A0043DC00977213 /* Sources */,
-				DF3C4C881A0043DC00977213 /* Frameworks */,
-				DF3C4C891A0043DC00977213 /* CopyFiles */,
+				DF33B9061A0054800050CB74 /* Sources */,
+				DF33B9071A0054800050CB74 /* Frameworks */,
+				DF33B9081A0054800050CB74 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ClosureNumberJudge;
-			productName = ClosureNumberJudge;
-			productReference = DF3C4C8B1A0043DC00977213 /* ClosureNumberJudge */;
+			name = Closures;
+			productName = Closures;
+			productReference = DF33B90A1A0054800050CB74 /* Closures */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF3C4C831A0043DC00977213 /* Project object */ = {
+		DF33B9021A0054800050CB74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Anthony Super";
 				TargetAttributes = {
-					DF3C4C8A1A0043DC00977213 = {
+					DF33B9091A0054800050CB74 = {
 						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
-			buildConfigurationList = DF3C4C861A0043DC00977213 /* Build configuration list for PBXProject "ClosureNumberJudge" */;
+			buildConfigurationList = DF33B9051A0054800050CB74 /* Build configuration list for PBXProject "Closures" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DF3C4C821A0043DC00977213;
-			productRefGroup = DF3C4C8C1A0043DC00977213 /* Products */;
+			mainGroup = DF33B9011A0054800050CB74;
+			productRefGroup = DF33B90B1A0054800050CB74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF3C4C8A1A0043DC00977213 /* ClosureNumberJudge */,
+				DF33B9091A0054800050CB74 /* Closures */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF3C4C871A0043DC00977213 /* Sources */ = {
+		DF33B9061A0054800050CB74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3C4C8F1A0043DC00977213 /* main.m in Sources */,
+				DF33B90E1A0054800050CB74 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF3C4C901A0043DC00977213 /* Debug */ = {
+		DF33B90F1A0054800050CB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -165,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		DF3C4C911A0043DC00977213 /* Release */ = {
+		DF33B9101A0054800050CB74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,14 +199,14 @@
 			};
 			name = Release;
 		};
-		DF3C4C931A0043DC00977213 /* Debug */ = {
+		DF33B9121A0054800050CB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DF3C4C941A0043DC00977213 /* Release */ = {
+		DF33B9131A0054800050CB74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -216,24 +216,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF3C4C861A0043DC00977213 /* Build configuration list for PBXProject "ClosureNumberJudge" */ = {
+		DF33B9051A0054800050CB74 /* Build configuration list for PBXProject "Closures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF3C4C901A0043DC00977213 /* Debug */,
-				DF3C4C911A0043DC00977213 /* Release */,
+				DF33B90F1A0054800050CB74 /* Debug */,
+				DF33B9101A0054800050CB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF3C4C921A0043DC00977213 /* Build configuration list for PBXNativeTarget "ClosureNumberJudge" */ = {
+		DF33B9111A0054800050CB74 /* Build configuration list for PBXNativeTarget "Closures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF3C4C931A0043DC00977213 /* Debug */,
-				DF3C4C941A0043DC00977213 /* Release */,
+				DF33B9121A0054800050CB74 /* Debug */,
+				DF33B9131A0054800050CB74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF3C4C831A0043DC00977213 /* Project object */;
+	rootObject = DF33B9021A0054800050CB74 /* Project object */;
 }
