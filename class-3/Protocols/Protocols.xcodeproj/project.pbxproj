@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D530DC251A0AD9F500A4E584 /* JenniferBennet.m in Sources */ = {isa = PBXBuildFile; fileRef = D530DC241A0AD9F500A4E584 /* JenniferBennet.m */; };
 		DF874E641A09E85900493D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF874E631A09E85900493D88 /* main.m */; };
 		DF874E721A09EB3A00493D88 /* McDonalds.m in Sources */ = {isa = PBXBuildFile; fileRef = DF874E711A09EB3A00493D88 /* McDonalds.m */; };
 		DF874E7B1A09EC2700493D88 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF874E7A1A09EC2700493D88 /* MenuItem.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D530DC231A0AD9F500A4E584 /* JenniferBennet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JenniferBennet.h; sourceTree = "<group>"; };
+		D530DC241A0AD9F500A4E584 /* JenniferBennet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JenniferBennet.m; sourceTree = "<group>"; };
 		DF874E601A09E85900493D88 /* Protocols */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Protocols; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF874E631A09E85900493D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF874E701A09EB3A00493D88 /* McDonalds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McDonalds.h; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 				DF874E701A09EB3A00493D88 /* McDonalds.h */,
 				DF874E711A09EB3A00493D88 /* McDonalds.m */,
 				DF874E7F1A09EEFF00493D88 /* Tony.h */,
+				D530DC231A0AD9F500A4E584 /* JenniferBennet.h */,
+				D530DC241A0AD9F500A4E584 /* JenniferBennet.m */,
 				DF874E801A09EEFF00493D88 /* Tony.m */,
 				DF874E731A09EB8E00493D88 /* RestaurantPatron.h */,
 				DF874E7A1A09EC2700493D88 /* MenuItem.m */,
@@ -138,6 +143,7 @@
 				DF874E811A09EEFF00493D88 /* Tony.m in Sources */,
 				DF874E7B1A09EC2700493D88 /* MenuItem.m in Sources */,
 				DF874E641A09E85900493D88 /* main.m in Sources */,
+				D530DC251A0AD9F500A4E584 /* JenniferBennet.m in Sources */,
 				DF874E721A09EB3A00493D88 /* McDonalds.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +228,7 @@
 		DF874E681A09E85900493D88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -229,6 +236,7 @@
 		DF874E691A09E85900493D88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -252,6 +260,7 @@
 				DF874E691A09E85900493D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

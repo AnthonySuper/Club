@@ -7,6 +7,6 @@
 
 @interface NumberJudge : NSObject
 @property int favorite_number, worst_number;
--(void) judge:(int) i;
+-(void) judge: (int) i;
 
 @end

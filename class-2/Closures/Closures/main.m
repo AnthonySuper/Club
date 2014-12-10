@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
         // Yes, the syntax is atrocious. See:
         // http://goshdarnblocksyntax.com/
         void (^block)(void) = ^void (void){
+            NSLog(@"Anthony is not creative and can't come up with exampels");
             NSLog(@"I ran a block!");
         };
         block();
@@ -31,7 +32,7 @@ int main(int argc, const char * argv[]) {
         // Blocks can also capture variables:
         int a = 10;
         void(^varCapture)(void) = ^(void){
-            NSLog(@"I have captured the variable i, which is: %i",a);
+            NSLog(@"I have captured the variable a, which is: %i",a);
             
         };
         varCapture();
@@ -40,8 +41,23 @@ int main(int argc, const char * argv[]) {
         varCapture();
         a = 196010;
         varCapture();
+        // Write a block
+        // Which:
+        // Takes an int
+        // Checks to see if that int is bigger than a captured variable
+        // and returns -1 if so, 0 if otherwise.
+        // CSS WAS HERE
+        // #troll'd
+        int(^returningBlock)(int) = ^int(int i){
+            if(i > 10)
+                return i;
+            else
+                return -(10-i);
+            
+        };
+        NSLog(@"%i",returningBlock(100));
+        NSLog(@"%i",returningBlock(-12313));
         
-    
     }
     
     return 0;

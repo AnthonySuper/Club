@@ -8,6 +8,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
         NumberJudge *judgeA = [[NumberJudge alloc] init];
         NumberJudge *judgeB = [[NumberJudge alloc] init];
         [judgeA setFavorite_number:3];

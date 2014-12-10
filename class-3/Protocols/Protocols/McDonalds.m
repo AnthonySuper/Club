@@ -7,7 +7,6 @@
 //
 
 #import "McDonalds.h"
-
 @implementation McDonalds
 // Note: This is NOWHERE NEAR the proper way to write this.
 // Next class, we'll get into refactoring this to make it better.

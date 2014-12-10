@@ -12,6 +12,6 @@
 }
 -(void) saySomethingElse
 {
-    // Make me say something else!
+    NSLog(@"Teaching is hard :(");
 }
 @end
